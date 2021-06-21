@@ -1,4 +1,5 @@
 <?php
+
     function getTree($name = 'root')
     {
         $conn = mysqli_connect("localhost","root","","mydb");
@@ -37,6 +38,5 @@
     $tree = getTree();
     echo json_encode($tree);
     
-
 
 ?>
